@@ -1,27 +1,57 @@
-Melody
-Melody is a music player app that allows developers to hear songs from VS Code without authentication.
+# Melody - VS Code Music Player Extension
 
-Features
-Play songs from a local directory or a remote URL.
-Control playback with keyboard shortcuts.
-Create and manage playlists.
-Get song information, such as title, artist, and album.
-Installation
-To install Melody, open VS Code and press Ctrl+Shift+P to open the command palette. Then, type install extension and select Melody from the list of extensions.
+Melody is a lightweight VS Code extension that allows developers to enjoy their favorite tunes right within the code editor. With Melody, you can easily play songs without the need for authentication or external players.
 
-Usage
-To use Melody, open a song file or a playlist in VS Code. Then, press Ctrl+Alt+P to open the Melody command palette. From the command palette, you can play, pause, skip, and repeat songs. You can also get song information.
+## Features
 
-Contributing
-Melody is an open source project. If you would like to contribute, please fork the repository and submit a pull request.
+- Listen to your favorite songs while coding.
+- Play random songs to keep the inspiration flowing.
+- A simple and easy-to-use music player right inside VS Code.
 
-License
-Melody is licensed under the MIT License.
+## Getting Started
 
-Here are some additional details that you may want to include in your readme.md:
+1. **Installation**:
 
-The requirements for running Melody, such as the operating system and version of VS Code.
-Instructions on how to configure Melody, such as setting the default directory for songs.
-A list of known issues and limitations.
-A link to the project's website or repository.
-I hope this helps!
+   - Open your Visual Studio Code.
+   - Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+   - Search for "Melody" and install the extension.
+
+2. **Usage**:
+
+   - Press `Ctrl+Shift+P` to open the Command Palette.
+   - Type `SHOW SONGS` and select it to list the available songs.
+   - Type `PLAY SONGS` to play a random song from the list.
+   - Type `UPLOAD SONGS` to upload a song on a website.
+
+## Requirements
+
+- Visual Studio Code (VS Code) installed on your machine.
+
+## Extension Settings
+
+- No additional configuration required.
+
+## Known Issues
+
+- Currently, Melody supports a limited set of audio formats (e.g., MP3). Ensure your songs are in a compatible format.
+
+## Release Notes
+
+### Version 0.0.3
+
+- Initial release of Melody.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues, submit pull requests, or provide suggestions.
+
+## License
+
+This extension is licensed under the [MIT License](LICENSE).
+
+Enjoy your coding sessions with some sweet melodies!
+
+## Author
+Antony Renold Dickson.
+
+Arockya Joshep Raj.

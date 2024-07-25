@@ -1,8 +1,10 @@
 {
-  "name": "melody",
-  "displayName": "Melody",
+  "name": "isai",
+  "displayName": "Isai - songs",
+  "publisher": "AntonyRenoldDicksonK",
+  "icon": "icon.png",
   "description": "A music player for anonymous developers.",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -14,12 +16,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "melody.playsong",
+        "command": "melody.playSong",
         "title": "PLAY SONGS"
       },
       {
         "command": "melody.showSongs",
         "title": "SHOW SONGS"
+      },
+      {
+        "command": "melody.uploadSong",
+        "title": "UPLOAD SONGS"
       }
     ]
   },
